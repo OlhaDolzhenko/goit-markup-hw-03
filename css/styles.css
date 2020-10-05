@@ -63,8 +63,9 @@ img {
 /*  ============ HEADER  ============ */
 
 .header {
-  padding-top: 21px;
+  padding-top: 24px;
   padding-bottom: 25px;
+  border: 1px solid #ececec;
 }
 
 .header .container {
@@ -95,12 +96,6 @@ img {
 
 .header .address {
   margin-left: auto;
-}
-
-.header .link {
-  display: block;
-  padding-top: 30px;
-  padding-bottom: 30px;
 }
 
 .header-address-list-item {
@@ -253,13 +248,9 @@ img {
 }
 
 .masters-list-item {
-  padding-bottom: 30px;
-  background: var(--title-dark-theme-color);
+  width: 270px;
+  background-color: var(--title-dark-theme-color);
   border-radius: 0px 0px 4px 4px;
-}
-
-.masters-img {
-  margin-bottom: 30px;
 }
 
 .masters-subtitle {
@@ -278,12 +269,17 @@ img {
   letter-spacing: 0.03em;
   color: var(--main-light-theme-color);
 }
+
+.masters-container {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
 /*  ============ END MASTERS  ============ */
 
 /*  ============ PORTFOLIO PROJECTS  ============ */
 .projects .container {
-  margin-top: 94px;
-  margin-bottom: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .projects-btn-list {
@@ -333,7 +329,7 @@ img {
 }
 
 .projects-container {
-  margin: 20px 24px;
+  padding: 20px 24px;
 }
 
 .projects-subtitle {
