@@ -63,14 +63,18 @@ img {
 /*  ============ HEADER  ============ */
 
 .header {
-  padding-top: 24px;
-  padding-bottom: 25px;
   border: 1px solid #ececec;
 }
 
 .header .container {
   display: flex;
   align-items: center;
+}
+
+.header .link {
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 
 .navigation {
@@ -273,6 +277,8 @@ img {
 .masters-container {
   padding-top: 30px;
   padding-bottom: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 /*  ============ END MASTERS  ============ */
 
